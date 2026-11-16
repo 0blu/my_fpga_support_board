@@ -1,0 +1,3172 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4851b444-f4dd-4858-90f7-4b0b536cda0d")
+	(paper "A4")
+	(title_block
+		(title "USB Interface Board")
+		(date "2026-11-08")
+		(rev "11/2026")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "MCU manages dynamic voltages and power bring up sequence"
+		(exclude_from_sim no)
+		(at 19.05 139.192 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 120 40 200 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "01fa8969-5864-44d4-9893-547f46160b69")
+	)
+	(text "16 Bit Data Bus"
+		(exclude_from_sim no)
+		(at 248.158 106.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 100 100 100 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "04e447c5-d079-4764-9b35-fd4d68e092d0")
+	)
+	(text "ASEMB"
+		(exclude_from_sim no)
+		(at 212.09 120.142 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 100 100 100 1)
+			)
+			(justify bottom)
+		)
+		(uuid "11041129-734a-4788-8d42-f8f289b7922b")
+	)
+	(text "Debug port for EZ-USB FX5 chip"
+		(exclude_from_sim no)
+		(at 37.592 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 100 100 100 1)
+			)
+		)
+		(uuid "15bb0078-2ee6-4bc2-9312-fc2fd7026c61")
+	)
+	(text "(Also contains LEDs)"
+		(exclude_from_sim no)
+		(at 107.188 119.634 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.36)
+				(bold yes)
+				(color 100 100 100 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "21185dd0-cf3c-4359-ae64-ad641bbda9c9")
+	)
+	(text "Power Input\nStandard:  5V/0.9A  (4.5 Watt)\nRequested: 5V/3A   (15 Watt)"
+		(exclude_from_sim no)
+		(at 54.864 84.582 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 100 100 100 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "28031c30-1d84-44d0-ae2d-e30b4e8f92df")
+	)
+	(text "CYUSB3082"
+		(exclude_from_sim no)
+		(at 132.842 73.406 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 100 100 100 1)
+			)
+			(justify bottom)
+		)
+		(uuid "4e3d9b80-f7f1-4733-99cd-129f4427250a")
+	)
+	(text "USB Interface Board"
+		(exclude_from_sim no)
+		(at 13.716 15.748 0)
+		(effects
+			(font
+				(size 9 9)
+				(thickness 1.8)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "616635c7-fa6c-4629-9a0c-98edb2b1f757")
+	)
+	(text "Bring-up order: DYN_V_EXT, +1.8V_EXT, +3.3V_EXT"
+		(exclude_from_sim no)
+		(at 212.09 26.162 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 130 50 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "68ecb76e-83d7-4839-b464-652f154e436b")
+	)
+	(text "GPIO: 4xFPGA IO Voltage + 2x3.3V"
+		(exclude_from_sim no)
+		(at 248.158 110.236 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 100 100 100 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "75da1604-71b9-49d2-8dfb-6aa56a2e6b29")
+	)
+	(text "Always-On power"
+		(exclude_from_sim no)
+		(at 248.412 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 100 100 100 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "76d7feac-b71c-4576-a69c-0bcfe9dd7ee1")
+	)
+	(text "Expose I2C_INT to the rest of the board\nMCU is master"
+		(exclude_from_sim no)
+		(at 103.124 106.172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 120 40 200 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "78b25bb9-55cb-4d5f-9df0-90c283e33a7d")
+	)
+	(text "CYPD3177"
+		(exclude_from_sim no)
+		(at 37.084 51.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 100 100 100 1)
+			)
+			(justify bottom)
+		)
+		(uuid "7fd84bb2-0c6b-4e61-a946-446e509dc27f")
+	)
+	(text "5 Amp"
+		(exclude_from_sim no)
+		(at 247.904 70.358 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 100 100 100 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "83295f53-4ed5-4034-81e2-6ab326c49845")
+	)
+	(text "Samtec QSH"
+		(exclude_from_sim no)
+		(at 264.922 29.972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 100 100 100 1)
+			)
+			(justify bottom)
+		)
+		(uuid "8366d145-9624-4489-9885-6c1abd38c036")
+	)
+	(text "JTAG Pull-Up is provided by this board"
+		(exclude_from_sim no)
+		(at 248.412 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 100 100 100 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "868febb4-f9ac-4168-8de9-ec3d15627b11")
+	)
+	(text "2.54mm pitch holes"
+		(exclude_from_sim no)
+		(at 38.608 103.632 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 100 100 100 1)
+			)
+			(justify bottom)
+		)
+		(uuid "86ceeecf-72ba-4be7-9c2f-0dbf9210b1d0")
+	)
+	(text "TPS2121"
+		(exclude_from_sim no)
+		(at 132.334 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 100 100 100 1)
+			)
+			(justify bottom)
+		)
+		(uuid "885fc012-2188-433e-9a12-d6cfdbaf7ee7")
+	)
+	(text "5V/0.9A - 12V/3A"
+		(exclude_from_sim no)
+		(at 169.418 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 100 100 100 1)
+			)
+			(justify bottom)
+		)
+		(uuid "97fcf676-f86f-4089-93b0-b84fee79a189")
+	)
+	(text "Power Input\nStandard:  5V/0.9A  (4.5 Watt)\nRequested: 12V/3A  (36 Watt)"
+		(exclude_from_sim no)
+		(at 55.118 57.658 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 100 100 100 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a3b812d-2185-4f16-b3ed-40b3e63254ef")
+	)
+	(text "Reference voltage only"
+		(exclude_from_sim no)
+		(at 247.904 100.076 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 100 100 100 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "b50b184e-6594-49ec-9e0e-6d8449e54777")
+	)
+	(text "HD3SS3220"
+		(exclude_from_sim no)
+		(at 37.592 78.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 100 100 100 1)
+			)
+			(justify bottom)
+		)
+		(uuid "b52d30e6-9710-4e48-b9a7-b7f163c885e1")
+	)
+	(text "Data (USB3 5Gbps)"
+		(exclude_from_sim no)
+		(at 54.61 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 100 100 100 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "caf4661f-0e64-44c5-938c-97ff72c46378")
+	)
+	(text "12 Amp"
+		(exclude_from_sim no)
+		(at 248.412 39.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 100 100 100 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "cca4053f-f885-48a4-90f6-b2f6dc2f424f")
+	)
+	(text "5 Amp"
+		(exclude_from_sim no)
+		(at 247.904 55.118 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 100 100 100 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1e6724d-c25b-4c35-a0b4-db54566fa52c")
+	)
+	(text "FPGA requests on J3, read by the FX5:"
+		(exclude_from_sim no)
+		(at 212.09 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 130 50 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d820527d-fd25-4d9e-8ac3-aadd047157ed")
+	)
+	(text "Provides power, data and debug to FPGA board"
+		(exclude_from_sim no)
+		(at 15.24 27.686 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "da60ea76-3d98-4751-be45-0f7f1e5bae01")
+	)
+	(text "I2C_INT To the power module ICs (MCU is master)"
+		(exclude_from_sim no)
+		(at 19.05 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+				(color 120 40 200 1)
+			)
+			(justify left top)
+		)
+		(uuid "eb0590aa-891a-448d-8ee9-a53ea153e2f9")
+	)
+	(text "7-bit addresses. Only the power module is on I2C_INT: INA4230 and TPS542A50 (J4 pins 38/40).\nU8 (CYPD3177, HPI address 0x08) is not on the bus, its HPI pins go to TP3/TP4. IC3 (HD3SS3220)\nruns in GPIO mode without I2C and reports the host current on OUT1 (TP5) and OUT2 (TP6), which the FX5 cannot read"
+		(exclude_from_sim no)
+		(at 19.304 155.448 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+				(color 120 40 200 1)
+			)
+			(justify left top)
+		)
+		(uuid "ec5384b7-5bb4-4fd3-84c4-4f5da01da6ef")
+	)
+	(bus_entry
+		(at 104.14 95.25)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216b2e53-80f0-4691-b9f3-298876119d1c")
+	)
+	(bus_entry
+		(at 104.14 97.79)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ed52fb1-5294-4ff3-bd60-4669ff6c637c")
+	)
+	(wire
+		(pts
+			(xy 220.98 55.88) (xy 248.92 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b0f214-231f-4768-9213-9aed1eb0f2c1")
+	)
+	(wire
+		(pts
+			(xy 190.5 72.39) (xy 179.07 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0afdb541-3e60-4ab9-a275-48c387cb731b")
+	)
+	(wire
+		(pts
+			(xy 179.07 85.09) (xy 158.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b5d47ad-c3a4-411e-94f1-3e20af398800")
+	)
+	(wire
+		(pts
+			(xy 158.75 95.25) (xy 248.92 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba2145d-6b96-4c1d-be3c-bf77e145f281")
+	)
+	(bus
+		(pts
+			(xy 53.34 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f61a9bd-9d32-402d-9336-59199e0ee36a")
+	)
+	(wire
+		(pts
+			(xy 176.53 69.85) (xy 176.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12fd794a-7df9-42a4-8fe1-e70418fb2932")
+	)
+	(wire
+		(pts
+			(xy 227.33 68.58) (xy 220.98 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be8c30f-36d3-4b44-ac43-4592f84f704b")
+	)
+	(wire
+		(pts
+			(xy 158.75 82.55) (xy 176.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d89a88-132f-41da-92b1-21239c0b39f7")
+	)
+	(wire
+		(pts
+			(xy 242.57 81.28) (xy 242.57 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "267863f0-3869-4d5f-9283-f8a6701af993")
+	)
+	(wire
+		(pts
+			(xy 242.57 82.55) (xy 248.92 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b26cd6b-a6b8-4079-9997-6bfe3d2a5b8f")
+	)
+	(bus
+		(pts
+			(xy 53.34 62.23) (xy 90.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308aa282-e538-4ef2-8ef3-12cd17670035")
+	)
+	(wire
+		(pts
+			(xy 165.1 69.85) (xy 100.33 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3325213f-af20-4a3e-9013-2b9f5d023486")
+	)
+	(bus
+		(pts
+			(xy 104.14 95.25) (xy 106.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d9e6ae-65f2-47eb-9af6-d1ebdbb48daa")
+	)
+	(wire
+		(pts
+			(xy 227.33 53.34) (xy 220.98 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ebfc47-9728-4f14-a8e1-7ac76be56526")
+	)
+	(bus
+		(pts
+			(xy 158.75 106.68) (xy 248.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3771642a-23ab-4eda-9091-8065b10aadf4")
+	)
+	(bus
+		(pts
+			(xy 90.17 86.36) (xy 90.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379f395c-d099-4367-ac56-b1792d40a11a")
+	)
+	(wire
+		(pts
+			(xy 179.07 125.73) (xy 196.85 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41adb9c2-b067-49f4-8e99-da5463f54e2a")
+	)
+	(wire
+		(pts
+			(xy 220.98 40.64) (xy 248.92 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431299e9-6e68-42c3-a7e2-a3fc55b4c67c")
+	)
+	(wire
+		(pts
+			(xy 53.34 58.42) (xy 106.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51bcff74-776d-458f-a139-54be81a0f9e2")
+	)
+	(bus
+		(pts
+			(xy 53.34 110.49) (xy 106.68 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e48abd-2b59-4abd-9f51-63ccc8f42e4e")
+	)
+	(wire
+		(pts
+			(xy 227.33 125.73) (xy 248.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e4caf5-41c6-4e82-bc64-6073c58fdaca")
+	)
+	(bus
+		(pts
+			(xy 104.14 95.25) (xy 104.14 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e406ca-4a61-44ab-ad47-05453ae59fff")
+	)
+	(wire
+		(pts
+			(xy 179.07 116.84) (xy 179.07 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6d4049-e732-4fbd-b320-387bbe396967")
+	)
+	(wire
+		(pts
+			(xy 158.75 100.33) (xy 248.92 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f12a28d-4595-4cb8-a5b5-012a1c7ff690")
+	)
+	(wire
+		(pts
+			(xy 165.1 60.96) (xy 165.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d197ff-7be5-4876-8968-0f7805aa7583")
+	)
+	(wire
+		(pts
+			(xy 99.06 97.79) (xy 101.6 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0d18a9-329b-4039-bde4-2bd04b7fb555")
+	)
+	(wire
+		(pts
+			(xy 82.55 60.96) (xy 106.68 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728dc1cd-9bb5-4a82-be32-cefab7817e38")
+	)
+	(wire
+		(pts
+			(xy 158.75 97.79) (xy 248.92 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9d1335-1102-48f1-9882-24f60fdbab61")
+	)
+	(wire
+		(pts
+			(xy 82.55 85.09) (xy 82.55 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ae87df-2b66-4010-840a-90720e956215")
+	)
+	(wire
+		(pts
+			(xy 179.07 72.39) (xy 179.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878e84ea-5add-44db-8009-20e0ecec7869")
+	)
+	(wire
+		(pts
+			(xy 158.75 58.42) (xy 190.5 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6c72f3-bac6-4dde-a96c-28ffd2ba2c17")
+	)
+	(wire
+		(pts
+			(xy 53.34 91.44) (xy 106.68 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90936c82-74ae-4f07-bf13-40156ac82832")
+	)
+	(wire
+		(pts
+			(xy 173.99 67.31) (xy 190.5 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a86a16-5ea0-4c62-ac2b-016a9cc6231f")
+	)
+	(bus
+		(pts
+			(xy 106.68 86.36) (xy 90.17 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6d6425-d54b-4b82-bb80-dcb280372f50")
+	)
+	(wire
+		(pts
+			(xy 176.53 69.85) (xy 190.5 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91ee3e9-2b4f-448f-8bf0-f04bf942fde3")
+	)
+	(wire
+		(pts
+			(xy 100.33 100.33) (xy 101.6 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc809e0-b0f7-4538-8882-d62c891518e9")
+	)
+	(wire
+		(pts
+			(xy 220.98 71.12) (xy 248.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b208b8b1-d9a1-4c7a-81f7-4d0773b112c6")
+	)
+	(wire
+		(pts
+			(xy 53.34 85.09) (xy 82.55 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b242da6b-a497-4ba5-b5c4-a5d889fcb02f")
+	)
+	(wire
+		(pts
+			(xy 100.33 69.85) (xy 100.33 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc3b046-34b1-4d6c-b716-17ec5a4274d7")
+	)
+	(wire
+		(pts
+			(xy 100.33 80.01) (xy 106.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6a3d55-c1bb-4475-957c-6f3a3318922f")
+	)
+	(wire
+		(pts
+			(xy 227.33 52.07) (xy 227.33 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c90c96c5-671c-4d46-82de-6172bdea7f09")
+	)
+	(bus
+		(pts
+			(xy 158.75 114.3) (xy 248.92 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5419202-5479-422e-ab82-da5eaac7c446")
+	)
+	(wire
+		(pts
+			(xy 158.75 116.84) (xy 179.07 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d871e940-4e55-4a81-8a18-0917e25c8c5f")
+	)
+	(wire
+		(pts
+			(xy 227.33 67.31) (xy 227.33 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca4c775-ddbd-47cb-8376-c92b7fd0e6a6")
+	)
+	(bus
+		(pts
+			(xy 158.75 110.49) (xy 248.92 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcbc32c5-fbdb-42fd-8d66-60f90e3a6ac0")
+	)
+	(wire
+		(pts
+			(xy 165.1 60.96) (xy 158.75 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e07f7e61-065e-4231-bfb3-b9fca6f754f7")
+	)
+	(wire
+		(pts
+			(xy 158.75 80.01) (xy 173.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e48517-1651-47bb-b174-e0be6b29da3c")
+	)
+	(wire
+		(pts
+			(xy 173.99 67.31) (xy 173.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f90dafb1-4778-442a-9707-95cad8f28ca9")
+	)
+	(table
+		(column_count 3)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 30 17 7.5)
+		(row_heights 2.54 2.54 2.54)
+		(uuid "45039fe6-1617-4434-98d0-b58f8a516bfa")
+		(cells
+			(table_cell "Signal"
+				(exclude_from_sim no)
+				(at 212.344 16.002 0)
+				(size 30 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "3ba4a34c-bd2d-4998-9395-d69c6961a1f3")
+			)
+			(table_cell "Low"
+				(exclude_from_sim no)
+				(at 242.344 16.002 0)
+				(size 17 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "5d596cb3-6263-4161-b931-76f52ed8b048")
+			)
+			(table_cell "High"
+				(exclude_from_sim no)
+				(at 259.344 16.002 0)
+				(size 7.5 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "21b1b4cb-dd1d-48e1-9163-129e21c60e6c")
+			)
+			(table_cell "REQUIRES_1.0V_DYN_VOLTAGE"
+				(exclude_from_sim no)
+				(at 212.344 18.542 0)
+				(size 30 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "aab6c0c7-e108-49da-9f49-e033efb5705f")
+			)
+			(table_cell "DYN_V 0.85 V"
+				(exclude_from_sim no)
+				(at 242.344 18.542 0)
+				(size 17 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "114f922d-bc74-4dda-87f9-d12464873502")
+			)
+			(table_cell "1.0 V"
+				(exclude_from_sim no)
+				(at 259.344 18.542 0)
+				(size 7.5 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "aed1d48d-5b76-4567-bdbe-7a3aa3f1093a")
+			)
+			(table_cell "REQUIRES_3.3V_IO_VOLTAGE"
+				(exclude_from_sim no)
+				(at 212.344 21.082 0)
+				(size 30 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a3bb095f-caa8-4a1a-a67c-04523422e679")
+			)
+			(table_cell "FPGA_IO 1.8 V"
+				(exclude_from_sim no)
+				(at 242.344 21.082 0)
+				(size 17 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "97871372-c976-41f1-96c9-e6cecdc513e1")
+			)
+			(table_cell "3.3 V"
+				(exclude_from_sim no)
+				(at 259.344 21.082 0)
+				(size 7.5 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9f71b50f-10a2-4f21-8b7c-e138342e0786")
+			)
+		)
+	)
+	(table
+		(column_count 3)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 30.48 30.48 16.51)
+		(row_heights 2.54 2.54 2.54)
+		(uuid "77c6c490-ca58-4ae1-8885-e2e8db865144")
+		(cells
+			(table_cell "I2C_INT Address"
+				(exclude_from_sim no)
+				(at 19.05 146.05 0)
+				(size 30.48 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+					(justify top)
+				)
+				(uuid "63352148-3ae5-4ef4-8cc2-2c7f12bc95e8")
+			)
+			(table_cell "Name"
+				(exclude_from_sim no)
+				(at 49.53 146.05 0)
+				(size 30.48 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+					(justify top)
+				)
+				(uuid "71865bcc-71fc-4846-9083-8dea6072ba84")
+			)
+			(table_cell "Device"
+				(exclude_from_sim no)
+				(at 80.01 146.05 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+					(justify top)
+				)
+				(uuid "4cff5d16-5537-4a10-8daa-f4c45a0f95b3")
+			)
+			(table_cell "0x45"
+				(exclude_from_sim no)
+				(at 19.05 148.59 0)
+				(size 30.48 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f0dd783d-e02c-477b-a8d7-01e4de352807")
+			)
+			(table_cell "Power module measurement"
+				(exclude_from_sim no)
+				(at 49.53 148.59 0)
+				(size 30.48 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6be7790d-4aaf-4fe1-8067-e08ffeacd5f0")
+			)
+			(table_cell "INA4230"
+				(exclude_from_sim no)
+				(at 80.01 148.59 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f84b7432-c1fa-4d83-b4b5-cb1706565ffc")
+			)
+			(table_cell "0x60"
+				(exclude_from_sim no)
+				(at 19.05 151.13 0)
+				(size 30.48 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "defbc0b7-081a-413a-bf3e-70636a76093f")
+			)
+			(table_cell "Power module DYN buck"
+				(exclude_from_sim no)
+				(at 49.53 151.13 0)
+				(size 30.48 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c70b0f55-312b-4db9-b95a-66694fc255f3")
+			)
+			(table_cell "TPS542A50"
+				(exclude_from_sim no)
+				(at 80.01 151.13 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "368e89bf-7152-4b06-9a01-ee919ea09ab4")
+			)
+		)
+	)
+	(table
+		(column_count 3)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 2.54 20.32 41.91)
+		(row_heights 3.81 2.54 2.54 2.54 2.54 2.54 2.54)
+		(uuid "988e67a5-1559-4aba-8f5f-c9c13a9351e4")
+		(cells
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 218.44 144.78 0)
+				(size 2.54 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.5 1.5)
+						(bold yes)
+					)
+					(justify top)
+				)
+				(uuid "9d5a3da0-aefc-4426-94b8-7c60f358c38f")
+			)
+			(table_cell "Note color"
+				(exclude_from_sim no)
+				(at 220.98 144.78 0)
+				(size 20.32 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.5 1.5)
+						(bold yes)
+					)
+					(justify top)
+				)
+				(uuid "6b1535f8-d2f0-4b7a-844d-1dbcd29e6049")
+			)
+			(table_cell "Used for"
+				(exclude_from_sim no)
+				(at 241.3 144.78 0)
+				(size 41.91 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.5 1.5)
+						(bold yes)
+					)
+					(justify top)
+				)
+				(uuid "faacdd46-c6fd-4fff-93fc-70f2f35b1cf6")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 218.44 148.59 0)
+				(size 2.54 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 230 100 0 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6d2a085b-4195-445a-9f64-071ae814daa4")
+			)
+			(table_cell "Layout / routing"
+				(exclude_from_sim no)
+				(at 220.98 148.59 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 230 100 0 1)
+					)
+					(justify left top)
+				)
+				(uuid "058e63da-bb5a-4b8c-afd8-187d85bff005")
+			)
+			(table_cell "Placement, routing, allowed pin swaps"
+				(exclude_from_sim no)
+				(at 241.3 148.59 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d5c23e43-f260-4915-9cb0-a6743af45be5")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 218.44 151.13 0)
+				(size 2.54 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 0 122 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b32eea91-86ec-40ec-a85e-49303f93d31d")
+			)
+			(table_cell "Design rationale"
+				(exclude_from_sim no)
+				(at 220.98 151.13 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 194 0 122 1)
+					)
+					(justify left top)
+				)
+				(uuid "33e74d6d-54be-4085-9991-5bb76d53bb89")
+			)
+			(table_cell "Why a part or value was chosen"
+				(exclude_from_sim no)
+				(at 241.3 151.13 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b2d31461-0cb4-496a-b23a-4e90570a466b")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 218.44 153.67 0)
+				(size 2.54 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 0 130 50 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "5b1ce9f5-f306-4fe1-b066-58c440260c70")
+			)
+			(table_cell "Configuration"
+				(exclude_from_sim no)
+				(at 220.98 153.67 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 130 50 1)
+					)
+					(justify left top)
+				)
+				(uuid "34c46a8d-fadf-42d8-ad31-db823cc64356")
+			)
+			(table_cell "What a strap / pin level selects"
+				(exclude_from_sim no)
+				(at 241.3 153.67 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "30457820-3e98-4a80-b31e-5bf1b2f0d8b6")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 218.44 156.21 0)
+				(size 2.54 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 120 40 200 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "41cd3e3c-656e-4a30-896f-8140c6a9e61d")
+			)
+			(table_cell "Firmware / I2C"
+				(exclude_from_sim no)
+				(at 220.98 156.21 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 120 40 200 1)
+					)
+					(justify left top)
+				)
+				(uuid "70e7e365-4b97-4e83-a39a-9bc97d69da47")
+			)
+			(table_cell "I2C addresses, software-set values"
+				(exclude_from_sim no)
+				(at 241.3 156.21 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8fa126ef-6cda-4bae-b8f8-3ed576b3915a")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 218.44 158.75 0)
+				(size 2.54 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 100 100 100 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2bf42dba-8c23-4a2a-a6c7-a5506448d537")
+			)
+			(table_cell "General info"
+				(exclude_from_sim no)
+				(at 220.98 158.75 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 100 100 100 1)
+					)
+					(justify left top)
+				)
+				(uuid "bbfe692c-4d54-4cb3-a4d6-3ed83ed06606")
+			)
+			(table_cell "Ratings, part numbers, naming"
+				(exclude_from_sim no)
+				(at 241.3 158.75 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "617eacd1-dd5b-4ea8-9575-7a6f32ddfdd2")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 218.44 161.29 0)
+				(size 2.54 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 210 0 0 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ce45dd94-c6c8-42dd-97d0-f07044d79955")
+			)
+			(table_cell "Bring-up / to do"
+				(exclude_from_sim no)
+				(at 220.98 161.29 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 210 0 0 1)
+					)
+					(justify left top)
+				)
+				(uuid "75841fe3-5609-4907-9f3e-89f5e626172a")
+			)
+			(table_cell "Check on the bench, open items"
+				(exclude_from_sim no)
+				(at 241.3 161.29 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "5dad47a2-58a6-413b-b88a-8c14549496b1")
+			)
+		)
+	)
+	(global_label "I2C_INT_SDA"
+		(shape bidirectional)
+		(at 100.33 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7ca2c76-39f5-4e49-b491-4f2b454a7139")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.743 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C_INT_SCL"
+		(shape output)
+		(at 99.06 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b86381f6-3a55-4f29-8343-3f18db35321b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.6448 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 242.57 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "28a7aa9a-9992-441c-bb7d-bcc91be7757e")
+		(property "Reference" "#PWR041"
+			(at 242.57 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V_MCU"
+			(at 242.57 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 242.57 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48825a91-03dd-4b03-b195-05181e5ab116")
+		)
+		(instances
+			(project "usb_interface_board"
+				(path "/4851b444-f4dd-4858-90f7-4b0b536cda0d"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 19.05 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a88057d-1640-43bf-8e6d-cb79f23d1f65")
+		(property "Reference" "H1"
+			(at 21.59 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 21.59 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 19.05 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 19.05 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "usb_interface_board"
+				(path "/4851b444-f4dd-4858-90f7-4b0b536cda0d"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 19.05 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fb71fca-8a0a-4eeb-bc25-828dedf75ba5")
+		(property "Reference" "H2"
+			(at 21.59 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 21.59 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 19.05 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 19.05 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "usb_interface_board"
+				(path "/4851b444-f4dd-4858-90f7-4b0b536cda0d"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 227.33 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "570654bf-43ea-4ea1-9182-558d8ee50040")
+		(property "Reference" "#PWR044"
+			(at 227.33 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1.8V_MCU"
+			(at 227.33 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 227.33 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bddc1412-88f1-4dde-92a5-ad01cc1bcfcc")
+		)
+		(instances
+			(project "usb_interface_board"
+				(path "/4851b444-f4dd-4858-90f7-4b0b536cda0d"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 227.33 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "75ff17b8-d3e6-403d-80ef-ea5380de0bc5")
+		(property "Reference" "#PWR043"
+			(at 227.33 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V_MCU"
+			(at 227.33 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 227.33 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1dc2ba8f-a084-45f3-aee2-d69f513d7169")
+		)
+		(instances
+			(project "usb_interface_board"
+				(path "/4851b444-f4dd-4858-90f7-4b0b536cda0d"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 77.47)
+		(size 52.07 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "019facea-b728-44f4-8443-918bc3f8c393")
+		(property "Sheetname" "EZ-USB 3.2 FX5"
+			(at 134.366 76.962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2 2)
+					(bold yes)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Sheetfile" "04_ez-usb.kicad_sch"
+			(at 106.68 121.412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_POWER_PORT_ACTIVE" input
+			(at 106.68 80.01 180)
+			(uuid "111885fe-84b6-4dab-b6c9-481caaeb1511")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{ GPIO_B2B }" bidirectional
+			(at 158.75 110.49 0)
+			(uuid "b8bb1abd-12b3-4777-b98a-1681a8be8a22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{ DEBUG_IO_MCU }" bidirectional
+			(at 106.68 110.49 180)
+			(uuid "1f602e66-aef9-463a-928c-13d08749fc83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{ I2C_INT }" bidirectional
+			(at 106.68 95.25 180)
+			(uuid "0b689b42-bd4e-482c-bad6-8f6c5c6372ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{ USB_DATA_FX5 }" bidirectional
+			(at 106.68 88.9 180)
+			(uuid "dda693e6-15e8-477b-8b7a-3f5f3a1aadab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{ FIFO }" bidirectional
+			(at 158.75 106.68 0)
+			(uuid "96bcc251-c804-47aa-97f3-454a655c9a25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{ JTAG_FPGA }" bidirectional
+			(at 158.75 114.3 0)
+			(uuid "0b4d2238-ee7d-4078-bc12-2220257fd2dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{ USB_DEBUG }" bidirectional
+			(at 106.68 86.36 180)
+			(uuid "a24d1b02-5140-4f8b-a120-93e564542139")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1.8V_EXT_EN" output
+			(at 158.75 82.55 0)
+			(uuid "38b83ede-d093-47fe-ad17-2125ad1d3b0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3.3V_EXT_EN" output
+			(at 158.75 85.09 0)
+			(uuid "bb63803a-bb5d-4e64-b89e-421cfc4e6e1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DYN_V_EXT_EN" output
+			(at 158.75 80.01 0)
+			(uuid "93f55719-30d8-459c-980e-194a027316a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REQUIRES_1.0V_DYN_VOLTAGE" input
+			(at 158.75 95.25 0)
+			(uuid "2b50dc51-374b-4037-af66-945056ddf165")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DATA_CONNECTED" input
+			(at 106.68 91.44 180)
+			(uuid "006eeb79-fdb1-4d8b-ab00-4a01fc39ece8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REQUIRES_3.3V_IO_VOLTAGE" input
+			(at 158.75 97.79 0)
+			(uuid "536f3fe7-a79e-4cae-addb-73e059471994")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_IO_VOLTAGE" output
+			(at 158.75 100.33 0)
+			(uuid "73acbc65-328d-4b49-b3b0-7d87910a7c49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK_EN" output
+			(at 158.75 116.84 0)
+			(uuid "286f7188-c33e-4bbe-8aac-ea2a53276814")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "usb_interface_board"
+				(path "/4851b444-f4dd-4858-90f7-4b0b536cda0d"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 123.19)
+		(size 30.48 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4ad8a3df-dfd3-45fa-808e-9603442f035a")
+		(property "Sheetname" "100MHz Oscillator"
+			(at 213.868 122.936 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2 2)
+					(bold yes)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Sheetfile" "11_oscillator-100MHz.kicad_sch"
+			(at 196.85 128.8546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLK_100MHZ" output
+			(at 227.33 125.73 0)
+			(uuid "8e3c1d60-f124-49ab-82ee-42de4a1bf56f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK_EN" input
+			(at 196.85 125.73 180)
+			(uuid "60e16a52-ff17-4742-aaec-50bfed0368a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "usb_interface_board"
+				(path "/4851b444-f4dd-4858-90f7-4b0b536cda0d"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 55.88)
+		(size 52.07 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "637edd4f-c66d-4b29-a67b-5cb6bbde97bc")
+		(property "Sheetname" "Power Mux"
+			(at 132.588 55.372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Sheetfile" "03_power_mux.kicad_sch"
+			(at 106.68 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DATA_5V" input
+			(at 106.68 60.96 180)
+			(uuid "bd383f13-661c-4a16-ab3e-073975ba9fe1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_POWER_12V" input
+			(at 106.68 58.42 180)
+			(uuid "ba051a71-2d42-4b45-ae53-d6b3b0dd36b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+VMUX" output
+			(at 158.75 58.42 0)
+			(uuid "bc521a9a-f802-4e90-9d5b-6586cfe0537e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_POWER_PORT_ACTIVE" output
+			(at 158.75 60.96 0)
+			(uuid "c7fa7a45-0824-4923-9b14-351f18fad323")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "usb_interface_board"
+				(path "/4851b444-f4dd-4858-90f7-4b0b536cda0d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 55.88)
+		(size 31.75 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c02d4c8c-d080-4a0f-9c36-176b64b6d3fe")
+		(property "Sheetname" "USB Port \"Power\""
+			(at 36.83 55.118 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Sheetfile" "05_usb-port-debug.kicad_sch"
+			(at 21.59 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{ USB_DEBUG }" bidirectional
+			(at 53.34 62.23 0)
+			(uuid "3b71d90a-44f6-42a2-b7ad-367e0578190a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_POWER_12V" output
+			(at 53.34 58.42 0)
+			(uuid "3e0c7746-d68b-4df1-bfc6-628e91b75e55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "usb_interface_board"
+				(path "/4851b444-f4dd-4858-90f7-4b0b536cda0d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 82.55)
+		(size 31.75 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ddbc7c2d-c0c0-4974-bf40-20069b73e2fa")
+		(property "Sheetname" "USB Port \"Data\""
+			(at 37.338 82.296 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2 2)
+					(bold yes)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Sheetfile" "06_usb-port-data.kicad_sch"
+			(at 21.59 94.742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{ USB_DATA_FX5 }" bidirectional
+			(at 53.34 88.9 0)
+			(uuid "e8393c6c-b7be-4bf8-be7a-b4792d9b9eeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DATA_5V" output
+			(at 53.34 85.09 0)
+			(uuid "e165fb2b-0e26-49f0-99bb-a92c4ee68583")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DATA_CONNECTED" output
+			(at 53.34 91.44 0)
+			(uuid "dd15e163-3b0d-4d25-8cf8-07262f3c9624")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "usb_interface_board"
+				(path "/4851b444-f4dd-4858-90f7-4b0b536cda0d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 107.95)
+		(size 31.75 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e266c8c2-7787-41ac-b7c1-62a476e771d6")
+		(property "Sheetname" "Debug Pins"
+			(at 38.1 107.188 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Sheetfile" "10_debug-pins.kicad_sch"
+			(at 21.59 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{ DEBUG_IO_MCU }" bidirectional
+			(at 53.34 110.49 0)
+			(uuid "08c9ab3d-51dc-4b26-b672-b034f83065ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "usb_interface_board"
+				(path "/4851b444-f4dd-4858-90f7-4b0b536cda0d"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 36.83)
+		(size 30.48 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ecd65310-3f9f-42bc-9532-2c5714923947")
+		(property "Sheetname" "Power Board Connector"
+			(at 205.486 36.322 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Sheetfile" "02_power.kicad_sch"
+			(at 190.5 76.708 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DYN_V_EXT" output
+			(at 220.98 40.64 0)
+			(uuid "b091631e-580f-4487-aacd-40e48694b1ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+VMUX" input
+			(at 190.5 58.42 180)
+			(uuid "17949a32-a28c-4659-9b94-5b783fd758f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+1.8V_MCU" output
+			(at 220.98 53.34 0)
+			(uuid "18890d3c-9953-4c6f-b60f-737baec6b2a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3.3V_MCU" output
+			(at 220.98 68.58 0)
+			(uuid "e496d15b-12dd-4410-bd62-ff2ffc33aa6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DYN_V_EXT_EN" input
+			(at 190.5 67.31 180)
+			(uuid "9d25c112-d9fb-467e-983d-ee6b0767168a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1.8V_EXT_EN" input
+			(at 190.5 69.85 180)
+			(uuid "726d68eb-6bbd-4841-988b-ba5c34ca1095")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3.3V_EXT_EN" input
+			(at 190.5 72.39 180)
+			(uuid "09a88b17-e568-464d-bf02-f06caf1f6552")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+1.8V_EXT" output
+			(at 220.98 55.88 0)
+			(uuid "a11ca456-f824-4bfe-8750-c17e676ac669")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3.3V_EXT" output
+			(at 220.98 71.12 0)
+			(uuid "85d97af8-7a1e-43f1-9a59-1daeeb0c4a3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "usb_interface_board"
+				(path "/4851b444-f4dd-4858-90f7-4b0b536cda0d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 248.92 33.02)
+		(size 31.75 95.25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f4ef43be-5684-4eee-8783-49ca3c52c02b")
+		(property "Sheetname" "FPGA Board Connector"
+			(at 264.668 32.512 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Sheetfile" "12_board2board-connector.kicad_sch"
+			(at 262.382 129.286 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(pin "{ GPIO_B2B }" bidirectional
+			(at 248.92 110.49 180)
+			(uuid "33d6a11f-1355-4c67-8b42-2ea1c33e976c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DYN_V_EXT" input
+			(at 248.92 40.64 180)
+			(uuid "49bfb777-75ce-47d1-b5c7-5a301efadcc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REQUIRES_1.0V_DYN_VOLTAGE" output
+			(at 248.92 95.25 180)
+			(uuid "e99ce829-aa5e-442c-be68-a9c2fea6a6e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK_100MHZ" input
+			(at 248.92 125.73 180)
+			(uuid "9a1667e5-c2a9-41fb-92d0-6fed6469898c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{ FIFO }" bidirectional
+			(at 248.92 106.68 180)
+			(uuid "b253aa97-3f7c-436f-b388-78900212186c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{ JTAG_FPGA }" bidirectional
+			(at 248.92 114.3 180)
+			(uuid "ea364607-e21b-47ac-875b-e6ff4ba197c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+1.8V_EXT" input
+			(at 248.92 55.88 180)
+			(uuid "f534fceb-a5cc-474d-97c8-26d42e38af3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3.3V_EXT" input
+			(at 248.92 71.12 180)
+			(uuid "0fcaef7a-a93f-4312-b476-124ae5ba4bd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3.3V_MCU" input
+			(at 248.92 82.55 180)
+			(uuid "b4b1ca62-1d1c-45e7-8d08-ad6d7d4c6436")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REQUIRES_3.3V_IO_VOLTAGE" output
+			(at 248.92 97.79 180)
+			(uuid "f0a61897-693f-47c6-b9e6-8d5ce3514372")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_IO_VOLTAGE" input
+			(at 248.92 100.33 180)
+			(uuid "9afe7163-fab6-404c-84e3-68133aebb40b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "usb_interface_board"
+				(path "/4851b444-f4dd-4858-90f7-4b0b536cda0d"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
