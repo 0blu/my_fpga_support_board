@@ -1,0 +1,86 @@
+(footprint "NetTie-2_SMD_Pad0.2mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Net tie, 2 pin, 0.2mm round SMD pads, 1.0mm pitch, 0.2mm wide copper bridge (matches a 0.2mm track; narrow variant of NetTie-2_SMD_Pad0.5mm)")
+	(tags "net tie")
+	(property "Reference" "REF**"
+		(at 0 -1.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3f0b6c52-8e1d-4a7b-9c35-2d61f0a4b871")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NetTie-2_SMD_Pad0.2mm"
+		(at 0 1.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a2d4e17-5c90-4f6b-a1e3-7b05c9d2f364")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c71e9a05-2b34-4d8e-96f1-0e5a3b7c2d49")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e8f3b21-7d46-4c0a-9b18-f2a6e4c19d07")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(net_tie_pad_groups "1, 2")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -0.5 -0.1) (xy 0.5 -0.1) (xy 0.5 0.1) (xy -0.5 0.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "b4d19c6e-3a72-4f85-8e0d-61c2a7f53b98")
+	)
+	(pad "1" smd circle
+		(at -0.5 0)
+		(size 0.2 0.2)
+		(layers "F.Cu")
+		(uuid "2c7a5f93-e14b-4d68-b0a2-9d3e81c6f540")
+	)
+	(pad "2" smd circle
+		(at 0.5 0)
+		(size 0.2 0.2)
+		(layers "F.Cu")
+		(uuid "e95b0d48-6f13-4c27-8a5e-3b7d2f19c6a1")
+	)
+	(embedded_fonts no)
+)

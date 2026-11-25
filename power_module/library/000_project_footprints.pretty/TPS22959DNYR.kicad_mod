@@ -1,0 +1,241 @@
+(footprint "TPS22959DNYR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-40℃~+85℃ 1 15A 4.4mΩ 800mV~5.5V Active High Load Switch WSON-8-EP(3x3) Power Distribution Switches ROHS")
+	(tags "C2149902 TPS22959DNYR Texas Instruments WSON-8_L3.0-W3.0-P0.65-TL-EP_TI_TPS22959")
+	(property "Reference" "REF**"
+		(at 0 -2.775 0)
+		(layer "F.SilkS")
+		(uuid "11559baa-cbac-4c93-a44d-1aa66f326250")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "06b8a8d2-2e81-4ccb-b413-21902b3f6298")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303011900_Texas-Instruments-TPS22959DNYR_C2149902.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f106023-7840-4601-8556-ec0873d59148")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-40℃~+85℃ 1 15A 4.4mΩ 800mV~5.5V Active High Load Switch WSON-8-EP(3x3) Power Distribution Switches ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abe2ef9f-4872-4e51-90f5-58d2b03168f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2149902"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d3c0ca1-8578-43cf-9f86-dbe200df7ee1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -1.5 -1.356131)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0733c9e2-e122-4342-93f2-8b681d894788")
+	)
+	(fp_line
+		(start -1.5 1.356182)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c9715ee-9f02-4b9c-9f5f-20527bc0b7a5")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c15b364-85cc-4372-bcc4-870a38380c6b")
+	)
+	(fp_line
+		(start 1.5 -1.356131)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "550c4815-24a1-4923-8d26-52d4355c06aa")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ca2acf8-f847-4c70-b579-9037db9fe85a")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end 1.5 1.356182)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f63d5b68-5037-4848-acb4-c3a83e75e247")
+	)
+	(fp_circle
+		(center -2 -0.999871)
+		(end -1.89992 -0.999871)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a293f7e3-6be6-40e3-9ba1-293f31b3be21")
+	)
+	(fp_rect
+		(start -2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "58951a75-3afd-4409-b359-a366788c19c4")
+	)
+	(fp_circle
+		(center -1.6 -0.999871)
+		(end -1.449832 -0.999871)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1e45fc82-9229-4142-9f76-2e1ed8f9ab6d")
+	)
+	(pad "1" smd rect
+		(at -1.4 -0.975 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bea9e314-f918-4638-9fb8-4de06c83b52f")
+	)
+	(pad "2" smd rect
+		(at -1.4 -0.325 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "056475c4-9740-41d4-92a4-c3544fcfee15")
+	)
+	(pad "3" smd rect
+		(at -1.4 0.325 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "41d577bb-9b89-4ccc-bbee-1f12a6bc8fe0")
+	)
+	(pad "4" smd rect
+		(at -1.4 0.975 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b1b41858-02dc-48cd-8ae3-c849545e2c4a")
+	)
+	(pad "5" smd rect
+		(at 1.4 0.975 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f0504626-b056-49a5-8f70-44420912d576")
+	)
+	(pad "6" smd rect
+		(at 1.4 0.325 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e41c9dc8-d853-4538-87fa-0c14da700bd9")
+	)
+	(pad "7" smd custom
+		(at 1.4 -0.975)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.3 0.15) (xy 0.3 -0.15) (xy -0.3 -0.15) (xy -0.3 1.45) (xy 0.3 1.45) (xy 0.3 1.15) (xy 0 1.15)
+					(xy 0 0.8) (xy 0.3 0.8) (xy 0.3 0.5) (xy 0 0.5) (xy 0 0.15)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "3ca45967-7592-42f0-a973-f1a866a7378b")
+	)
+	(pad "9" smd rect
+		(at 0 0.000127 180)
+		(size 1.6 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6df81020-23a9-4ecf-90c6-6f53c4cfa659")
+	)
+	(pad "8" smd rect
+		(at 1.4 -0.975 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0a93278d-b5a9-4fd7-ab0d-c001bb42806c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/000_project_footprints.3dshapes/TPS22959DNYR.step"
+		(offset
+			(xyz 0 0 0.02)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

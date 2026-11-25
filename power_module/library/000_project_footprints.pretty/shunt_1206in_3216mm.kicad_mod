@@ -1,0 +1,158 @@
+(footprint "shunt_1206in_3216mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "FMF06FTHR010-LH")
+	(tags "Resistor")
+	(property "Reference" "R**"
+		(at -3.4544 -1.905 0)
+		(layer "F.SilkS")
+		(uuid "118df484-c051-4a9e-af27-c15efed10dc7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "shunt_1206in_3216mm"
+		(at -3.4544 -1.905 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bc6f6961-9ae4-4b55-8b98-0612d39efbf1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/partdetail/106577-FMF06FTHR010LH/C105362"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9a1802a-fc39-4d7e-9953-6e1ddfdbe6d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96af7fcc-f56a-482b-8aa9-4d9bdf8489ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(net_tie_pad_groups "1, 2" "3, 4")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.945 -0.1)
+		(end -0.575 0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "08ddebb8-dab7-4be3-9519-e629ddd1511d")
+	)
+	(fp_rect
+		(start 0.575 -0.1)
+		(end 0.945 0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "c3c2e34f-3d86-4273-91e4-c3ccecd619c4")
+	)
+	(fp_line
+		(start 0.7 -0.75)
+		(end -0.7 -0.75)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f25f07d5-4177-4d6c-8b49-593ced293dd4")
+	)
+	(fp_line
+		(start 0.7 0.75)
+		(end -0.7 0.75)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5eb03cf4-47f2-4000-b673-e411c2068499")
+	)
+	(fp_rect
+		(start -1.85 -1.125)
+		(end 1.85 1.125)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a9a8744e-7a80-430d-931e-400de1d77ef1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.4544 -1.905 0)
+		(layer "F.Fab")
+		(uuid "a34c4372-8c77-45b5-91aa-9a32cc687546")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 0)
+		(size 0.6 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e9798c76-8dee-4147-aaa3-49aea1562ec2")
+	)
+	(pad "2" smd roundrect
+		(at -0.46 0)
+		(size 0.275 0.3)
+		(layers "F.Cu")
+		(roundrect_rratio 0.15)
+		(uuid "a0676e34-8700-494e-b6f4-2edaf5e00305")
+	)
+	(pad "3" smd roundrect
+		(at 0.46 0)
+		(size 0.275 0.3)
+		(layers "F.Cu")
+		(roundrect_rratio 0.15)
+		(uuid "0eaad931-d8d7-42cb-b398-850b6b12da9f")
+	)
+	(pad "4" smd rect
+		(at 1.25 0)
+		(size 0.6 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e9f9ec08-5b8f-45fc-8056-d4ac6a23e760")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
